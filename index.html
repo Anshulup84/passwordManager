@@ -8,6 +8,50 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Welcome to your all-in-one Password Manager! Forget the hassle of remembering countless passwords—our tool ensures your online accounts are safe, organized, and easily accessible.</p>
+        <h2>Your Password</h2>
+        <table>
+            <tr>
+              <th>Website</th>
+              <th>Username</th>
+              <th>Password</th>
+              <th>Delete</th>
+            </tr>
+            <tr>
+              <td>CWH</td>
+              <td>Github</td>
+            </tr>
+            <tr>
+                <td>CWH</td>
+                <td>Github@github.com</td>
+              </tr>
+          </table>
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+        
+            <br>
+        
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+          </form>
+    </div>
 </body>
 </html>
