@@ -54,3 +54,14 @@ margin: 23px 0;
     margin: 25px 0;
     cursor: pointer;
 }
+
+.btnsm{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid gray;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
